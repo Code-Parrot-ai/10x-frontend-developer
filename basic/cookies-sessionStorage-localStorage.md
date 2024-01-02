@@ -4,7 +4,7 @@ subtitle: Cookies vs session storage vs local storage
 slug: cookies-sessionStorage-localStorage
 tags: cookies, session, localStorage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704184184850/Bozqojf1E.png?auto=format
-domain: https://10xdev.codeparrot.ai
+domain: 10xdev.codeparrot.ai
 saveAsDraft: true
 ---
 
