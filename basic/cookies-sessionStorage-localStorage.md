@@ -1,11 +1,11 @@
 ---
-title: Cookies, sessionStorage, and localStorage - Key Differences and Use Cases
-subtitle: Cookies vs session storage vs local storage
+title: Cookies vs Session Storage vs Local Storage 
+subtitle: Key Differences and Use Cases
 slug: cookies-sessionStorage-localStorage
 tags: cookies, session, localStorage
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704184184850/Bozqojf1E.png?auto=format
-domain: https://10xdev.codeparrot.ai
-saveAsDraft: true
+domain: 10xdev.codeparrot.ai
+saveAsDraft: false
 ---
 
 
