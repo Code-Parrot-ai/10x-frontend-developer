@@ -4,7 +4,7 @@ subtitle: Cookies vs session storage vs local storage
 slug: cookies-sessionStorage-localStorage
 tags: cookies, session, localStorage
 cover: https://storage.googleapis.com/codeparrot-public/cookies-sessionStorage-localStorage
-domain: 
+domain: https://10xdev.codeparrot.ai/
 saveAsDraft: true
 ---
 
