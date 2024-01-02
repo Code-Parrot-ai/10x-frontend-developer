@@ -3,7 +3,7 @@ title: Cookies, sessionStorage, and localStorage - Key Differences and Use Cases
 subtitle: Cookies vs session storage vs local storage
 slug: cookies-sessionStorage-localStorage
 tags: cookies, session, localStorage
-cover: https://storage.googleapis.com/codeparrot-public/cookies-sessionStorage-localStorage
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704184184850/Bozqojf1E.png?auto=format
 domain: https://10xdev.codeparrot.ai/
 saveAsDraft: true
 ---
@@ -13,7 +13,7 @@ saveAsDraft: true
 
 In the world of web development, managing client-side data is crucial for creating dynamic and user-friendly web applications. Three primary technologies for this purpose are cookies, sessionStorage, and localStorage. Each has its unique features and use cases, making them suitable for different scenarios. In this blog post, we'll delve into the differences between these three technologies and explore their practical applications.
 
-![Cookies vs sessionStorage vs localStorage ](https://storage.googleapis.com/codeparrot-public/cookies-sessionStorage-localStorage)
+![Cookies vs sessionStorage vs localStorage ](https://cdn.hashnode.com/res/hashnode/image/upload/v1704184184850/Bozqojf1E.png?auto=format)
 
 ## Cookies
 
