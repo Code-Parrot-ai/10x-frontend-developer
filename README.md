@@ -19,9 +19,6 @@ Structure
     - /advanced
 
 
-Coding exercises environment is uniform, only need to setup once. 
-
-
 ## Contribution
 
 The more people who add to this, the more valuable this resource will become. Feel free to add your experiences to this.

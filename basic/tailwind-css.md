@@ -9,9 +9,6 @@ saveAsDraft: false
 ---
 
 
-
-# Getting Started with Tailwind CSS
-
 Tailwind CSS has emerged as a game-changer in the world of web development, offering a utility-first approach to styling web applications. This framework simplifies the process of creating custom designs without the hassle of writing tons of custom CSS.
 
 ## What is Tailwind CSS
