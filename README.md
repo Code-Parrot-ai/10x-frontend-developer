@@ -29,7 +29,7 @@ To add to this repo -
 
 1. Clone the repo
 
-2. Create a new branch author/<your github id>
+2. Create a new branch author/ < your-github-id >
 
 3. Add the content in a [Markdown File](https://www.markdownguide.org/getting-started/#:~:text=What%20is%20Markdown%3F,than%20using%20a%20WYSIWYG%20editor.). See examples in /basic folder to understand further
 
