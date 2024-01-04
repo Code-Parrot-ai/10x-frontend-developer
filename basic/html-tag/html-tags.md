@@ -1,4 +1,5 @@
 title: Introduction to HTML Tags
+slug: https://10xdev.codeparrot.ai/
 cover image: Upload the relevant image at https://hashnode.com/uploader and use the url
 
 # Introduction to HTML Tags
