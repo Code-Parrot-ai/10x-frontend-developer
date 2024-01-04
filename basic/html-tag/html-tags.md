@@ -9,7 +9,7 @@ In this article, we will discuss several important HTML tags and how you can use
 
 ## HTML Tags and Examples
 
-HTML tags usually begin with a greater than sign and then end with a less than sign (<html>) when opening them, but to close them off, a forward slash is added before the less than sign (</html>). Some basic examples of HTML tags include;
+HTML tags usually begin with a greater than sign, and then end with a less than sign (<html>) when opening them, but to close them off, a forward slash is added before the less than sign (</html>). Some basic examples of HTML tags include;
 
 1. The `<html>` tag
 2. The header `<head>` tag
