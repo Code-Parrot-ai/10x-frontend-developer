@@ -170,7 +170,8 @@ const Comp = props => {
 
 The component above would have ids generated once on the server, and new ones would be generated on the client-side. This would result in a mismatch in the DOM. That’s where the useId hook comes into play.
 
-```import { useId } from 'react'
+```
+import { useId } from 'react'
 const Comp = props => {
   const uid = useId()
   return (
