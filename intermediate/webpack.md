@@ -1,9 +1,9 @@
 ---
-title: Mastering Webpack: The Frontend Developer's Ultimate Guide
+title: Mastering Webpack- The Frontend Developer's Ultimate Guide
 subtitle: Embracing Your Essential Frontend Companion - Webpack, Babel, etc
 slug: webpack
 tags: javascript, Webpack Optimization, Build Process, Webpack Bundling, Webpack Loaders, Webpack Plugins, Frontend Performance.
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704441986346/ebpG9_zjJ.png?auto=format](https://cdn.hashnode.com/res/hashnode/image/upload/v1704442666216/IIXbFiWoV.webp?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704441986346/ebpG9_zjJ.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
