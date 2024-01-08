@@ -1,6 +1,8 @@
-title: Introduction to HTML Tags
-slug: https://10xdev.codeparrot.ai/
-cover image: Upload the relevant image at https://hashnode.com/uploader and use the url
+slug: introduction-to-html-tags
+tags: html
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704720765233/wr1xLBKVV.png?auto=format
+domain: 10xdev.codeparrot.ai
+saveAsDraft: false
 
 # Introduction to HTML Tags
 
@@ -167,7 +169,7 @@ The above tags are important parts of HTML and can not be overlooked. It is impo
 
 The image below shows the results of the HTML code above:
 
-![Capture.PNG](Capture.PNG)
+![Capture.PNG](https://lh3.googleusercontent.com/drive-viewer/AEYmBYRzqKYw0whKmeK5wDeGMix7e8oNz5RzTgQsUGMcn2FAOhTx95lqI4HVzqxH9toHMw8rMxKhkdozgoD-hTtenrS6TcvlnA=s1600)
 
 As you can see, all the tags here are promptly closed off, and all the content on the web page is encapsulated in the html tag.
 
