@@ -39,6 +39,9 @@ Tell me if this image makes sense to you now?
 ### So What About Scalability?
 With the integration of microservices and micro frontends, scalability transforms into a more manageable endeavor. Need to upgrade the payment system? You can revamp that specific service without the need to overhaul the entire application. It's akin to remodeling the kitchen while leaving the rest of the house untouched.
 
+Here's a table of difference between Monolithic and Micro Frontend:
+![Comparsion](https://cdn.hashnode.com/res/hashnode/image/upload/v1704820192746/nqCsyeJxD.png?auto=format)
+
 ### Conclusion: Embracing the Evolution
 The shift from monolithic to microservices and micro frontends in development signifies more than just a technical transition; it represents a fundamental change in our approach to scalability and team collaboration. As we explore this domain further, we gain a deeper appreciation for the art of crafting robust, scalable web applications that endure the tests of time and user demand.
 
