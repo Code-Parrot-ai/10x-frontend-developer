@@ -1,3 +1,13 @@
+---
+title: Babel
+subtitle: The Beauty of Babel:Exploring the Richness of Linguistic Diversity
+slug: babel
+tags: jsx, browser, babel, react, javascript
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704866971565/FvhVkCE_F.png?auto=format
+domain: 10xdev.codeparrot.ai
+saveAsDraft: false
+---
+
 ## BABEL - OVERVIEW
 
 BabelJS, a JavaScript transpiler created by Australian developer Sebastian McKenzie, seamlessly transforms modern ECMAScript features into an older standard. This enables compatibility across both old and new browsers, making it a vital tool in web development for enhancing code portability and maintainability.
