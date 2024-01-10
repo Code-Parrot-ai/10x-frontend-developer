@@ -1,8 +1,8 @@
 ---
-title: Scalable Frontend Architecture
-subtitle: How Do Big Enterprises Scale Their Frontend
+title: MicroFrontend: Scalable Frontend Architecture
+subtitle: How Do Big Enterprises Scale Their Frontend?
 slug: micro-frontend
-tags: monolithic, frontend, scalable, frontend architecture, frontend Design
+tags: microfrontend, micro-frontend, frontend, scalable, frontend architecture, frontend Design
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704189402735/Dpnzs_RRe.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
