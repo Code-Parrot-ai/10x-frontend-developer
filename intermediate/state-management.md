@@ -7,7 +7,7 @@ slug: react-state-secrets-unveiling-the-power-of-context-and-redux
 
 tags: react, performance, optimization, state management, redux, context apis, redux toolkit
 
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704430412709/abOQeBWJP.png?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704887157582/cIkYkbiXx.webp?auto=format
 
 domain: 10xdev.codeparrot.ai
 
