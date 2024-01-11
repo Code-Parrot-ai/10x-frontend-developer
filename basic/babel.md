@@ -1,5 +1,4 @@
 ---
-
 title: The Comprehensive Guide to Babel
 subtitle: Exploring the Richness of Linguistic Diversity
 slug: babel
@@ -7,6 +6,7 @@ tags: jsx, browser, babel, react, javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704866971565/FvhVkCE_F.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
+---
 
 ## BABEL - OVERVIEW
 
