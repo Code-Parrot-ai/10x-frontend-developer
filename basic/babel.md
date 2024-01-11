@@ -1,5 +1,5 @@
 ---
-title: Babel
+title:The Comprehensive Guide to Babel
 subtitle: The Beauty of Babel:Exploring the Richness of Linguistic Diversity
 slug: babel
 tags: jsx, browser, babel, react, javascript
