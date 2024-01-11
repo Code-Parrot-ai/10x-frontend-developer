@@ -1,6 +1,6 @@
 ---
 title:The Comprehensive Guide to Babel
-subtitle: The Beauty of Babel:Exploring the Richness of Linguistic Diversity
+subtitle: The Beauty of Babel-Exploring the Richness of Linguistic Diversity
 slug: babel
 tags: jsx, browser, babel, react, javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704866971565/FvhVkCE_F.png?auto=format
