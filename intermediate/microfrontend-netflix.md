@@ -1,15 +1,17 @@
 ---
-title: Dynamic Imports in JavaScript and React - Enhancing Performance and Efficiency
-subtitle:
-slug: dynamic-imports-in-react
-tags: dynamic imports, react, javascript
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704189402735/Dpnzs_RRe.png?auto=format
+title: Micro-Frontend - Netflix Case Study
+subtitle: How Do Big Enterprises Scale Their Frontend
+slug: micro-frontend-netflix
+tags: microfrontend , micro-frontend , react , scaling, javascript , scale frontend
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705073205349/MXf9TbuhW.webp?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
 
 
-Last week, we learnt about the basics of Micro Frontend. It's time we dive deep into it and understand with an example. We'll be covering a lot of concepts of scaling, feature and a bit of system design as well.
+Last week, we learnt about the basics of Micro Frontend. It's time we dive deep into it and understand with an example. We'll be covering a lot of concepts of scaling, feature and a bit of system design as well. If you missed reading that make sure to go through it : [Micro-Frontend : Part One](https://10xdev.codeparrot.ai/micro-frontend)
+
+We've covered about Monolithic and Microservice/Micro Frontend in detail. Today we'll be applying that knowledge through a case study!
 
 
 ## Netflix: Frontend Case Study 📲
