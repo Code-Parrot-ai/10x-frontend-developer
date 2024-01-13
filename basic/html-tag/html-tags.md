@@ -1,8 +1,11 @@
+---
 slug: introduction-to-html-tags
 tags: html
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704720765233/wr1xLBKVV.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
+seriesSlug: web-dev-basics
+---
 
 # Introduction to HTML Tags
 
