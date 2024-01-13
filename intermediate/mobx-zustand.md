@@ -99,6 +99,8 @@ const TodoList = observer(() => {
 export default TodoList;
 ```
 
+For more code examples visit the documentation [here](https://mobx.js.org/README.html).
+
 ## Zustand
 
 Zustand is a minimalistic state management solution known for its simplicity and ease of use. It's lightweight and performs well in smaller projects or for developers who prefer a more straightforward solution. While it lacks the extensive ecosystem and community support of Redux, Zustand's simplicity makes it a good choice for projects where a more structured and opinionated approach like Redux is not necessary​
@@ -171,6 +173,8 @@ const TodoList = () => {
 
 export default TodoList;
 ```
+
+For more code examples visit the documentation [here](https://github.com/pmndrs/zustand)
 
 ## Section 4: Comparison and Use Cases
 
