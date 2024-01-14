@@ -1,5 +1,5 @@
 ---
-title: Beyond Redux: Navigating the World of State Management
+title: Beyond Redux - Navigating the World of State Management
 
 subtitle: A Comparative Guide to MobX and Zustand for Modern JavaScript Applications.
 
@@ -12,7 +12,6 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705069331226/ZEnr9aH
 domain: 10xdev.codeparrot.ai
 
 saveAsDraft: false
-
 ---
 
 ## Introduction
