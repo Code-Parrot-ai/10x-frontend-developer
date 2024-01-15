@@ -3,9 +3,9 @@ title: Beyond Redux - Navigating the World of State Management
 
 subtitle: A Comparative Guide to MobX and Zustand for Modern JavaScript Applications.
 
-slug: mobx-zustand
+slug: "state-management-with-mobx-zustand"
 
-tags: JavaScript, StateManagement, ReduxAlternatives, MobX, Zustand, WebDevelopment, FrontendDevelopment, ReactJS, SoftwareEngineering, Programming
+tags: javascript, statemanagement, reduxalternatives, mobx, zustand, webdevelopment, frontenddevelopment, reactjs, softwareengineering, programming
 
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705069331226/ZEnr9aHDE.png?auto=format
 
