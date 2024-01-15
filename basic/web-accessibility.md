@@ -1,5 +1,5 @@
 ---
-title: Why You Should Not Use <div> Elements in Web Design?
+title: Why You Should Not Use <div> Elements in Web Development?
 subtitle: Enhancing Digital Inclusivity- A Guide to Website Accessibility
 slug: web-accessibility.
 tags: jsx, browser, accessibility, react, javascript
