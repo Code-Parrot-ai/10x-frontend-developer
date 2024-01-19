@@ -1,7 +1,7 @@
 ---
 title: Memoization, Decorator functions- Advanced Javascript 
-subtitle: Important Javscript Question 
-slug: memoization.md
+subtitle: Important Javscript Interview Question
+slug: memoization
 tags: memoization, Decorator functions, javascript, interview questions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704189402735/Dpnzs_RRe.png?auto=format
 domain: 10xdev.codeparrot.ai
