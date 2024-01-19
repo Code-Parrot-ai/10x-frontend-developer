@@ -1,8 +1,8 @@
 ---
 title: Memoization, Decorator functions- Advanced Javascript 
-subtitle: Important Javscript Questions
-slug: micro-frontend
-tags: micro-frontend, microfrontend, frontend, scalable, frontend architecture, frontend Design
+subtitle: Important Javscript Question 
+slug: memoization.md
+tags: memoization, Decorator functions, javascript, interview questions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704189402735/Dpnzs_RRe.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
@@ -30,7 +30,7 @@ Memoization is an optimization technique where the result of a function call is 
 
 ## Let's learn with some code
 
-Suppose we want to print `add(a+b)` more than once, this is how we would write:
+Suppose we frequently need to print `add(a+b)`, this is how we would write:
 
 ```
 function add(a+b){
@@ -44,13 +44,13 @@ console.log(add(2,3));
 
 ```
 
-Now, Imagine if instead of a simple `add(a+b)` function it was a big complex recursive function it was. It would have to call this function twice and that would be expensive.
+Now, Imagine if instead of a simple `add(a+b)` function it was a big complex recursive function it was. Calling this function repeatedly would be expensive.
 
-This is when memoization comes into picture. It memoizes or rather caches the value for you using the argument passed as the key and the result returned as the value. So next time you use the same arguments in the function, it wouldn't have to do all the expensive calculations and return you the required value!
+This is where memoization comes into picture. It memoizes or rather caches the value for you using the argument passed as the key and the result returned as the value. So, the next time you use the same arguments in the function, it wouldn't have to perform all the expensive calculations again and would return the required value!
 
-### Let's try to understand it with an example in Javascript:
+### Understanding Memoization in JavaScript
 
-Suppose we've a recursive factorial function:
+Consider a recursive factorial function:
 
 ```
 const factorial = (x) => {
@@ -62,44 +62,56 @@ const factorial = (x) => {
   };
 ```
 
-Now, I want to make sure that if I pass an arg of `x` (for example: 18) in the factorial function, it not only returns the value but also memoizes it so next time I need to pass the same arg, it doesn't perform an expensive operation again.
+Now, if I pass an argument of x (for example, 18) in the factorial function, I want it to memoize the result, so it doesn't perform an expensive operation again if called with the same argument.
 
-To perform that we need a bit of understanding on ***Decorator Function***.
+To achieve this, we need to understand the concept of a ***Decorator Function***.
+
 ### What is a decorator function?
 
-In layman's terms, It takes a basic function and adds some extra features or steps to it, without altering the original purpose of the function. It's like wrapping the original function in a new layer that can do more things. This way, you can enhance the functionality of your basic function without modifying it directly.
+In layman's terms, a decorator function takes a basic function and adds some extra features or steps to it without altering its original purpose. It's like wrapping the original function in a new layer that can do more things. This enhances the functionality of your basic function without modifying it directly.
 
-To do memoization on the factorial fn, we need to create a new function call memoizedFactorialFunction
+To apply memoization to the factorial function, we create a new function called `memoizedFactorialFunction`
 
 
 ```
 const memoizedFactorialFunction = (fn) => {
-   const cache = {}
+   const cache = {};
 
-  return (..args) => {
-  if(args.toString() in cache){
-  console.log(cache);
-  return cache[args.toString()];
-}
-  const result = fn(...args)
-  cache[args.toString()] = result;
-  return result;
-}
+   return (...args) => {
+     if (args.toString() in cache) {
+       console.log('Fetching from cache:', cache);
+       return cache[args.toString()];
+     }
+     const result = fn(...args);
+     cache[args.toString()] = result;
+     return result;
+   };
+};
+
 ```
 
 - We're passing our original `function as fn` in the `memoizedFactorialFunction`. This is typically for two reasons
-    - To check if the argument we're passing in the `fn` exist in the `cache` by first spreading the arguments, as there can be more than one argument. And then converting it to a string as the cache stores the key in string format. And then checking if it exists. If the arg exist as the key, then it returs it's value as the result and exists the function.
-    - If the argument is not present, it comes out of the if loop and passes the arg in the original function, gets the result, storses the result in key-value pair again in the cache and returns the result.
+    - To check if the argument exists in the cache. We spread the arguments (as there can be more than one), convert them to a string (since the cache stores keys as strings), and check for their existence. If the argument exists as a key, it returns its value as the result and exits the function.
+    - If the argument is not present in the cache, the function executes the original function with the given arguments, stores the result in the cache, and returns the result.
 
- Now to call the function we'll simply need to pass the original function i.e `factorial(x)` in `memoizedFactorialFunction(fn)` like this:
+To call the function, we simply pass the original function,  `factorial(x)` to `memoizedFactorialFunction(fn)` like this:
 
 ```
-console.log(memoizedFactorialFunction(factorial(5))); //first time it will calculate and store in the cache
-console.log(memoizedFactorialFunction(factorial(5))); //second time it will directly return from the cached value
+console.log(memoizedFactorialFunction(factorial(5)));
+//first time it will calculate and store in the cache
+
+console.log(memoizedFactorialFunction(factorial(5)));
+//second time it will directly return from the cached value
 
 ```
 That's all you need to fo! In React, memoization can be achieved using `React.memo` for components and `useMemo` for values within components.
 
-This very simple yet very important concept is one of the most asked questions in Javascript interviews. If you would like to know more about such concepts in layman's terms. Consider subscribing to our newletter. And I will see you soon, next week! :)
+## Cons Of Memoization
 
+- *Memory Overhead:* Storing cache results consumes memory.
+- *Complexity:* Can introduce complexity in code management.
+
+
+
+This simple yet important concept is one of the most asked questions in JavaScript interviews. If you would like to know more about such concepts in layman's terms, consider subscribing to our newsletter. I'll see you next week with more insights! :)
 
