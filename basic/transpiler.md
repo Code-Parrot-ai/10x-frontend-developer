@@ -1,7 +1,7 @@
 ---
 title: The Comprehensive Guide to Transpiler
 subtitle: Bridging Programming Languages in the Digital Era
-slug: babel
+slug: transpiler
 tags: jsx, browser, transpiler, react, javascript
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705586863731/ojENRNj3k.png?auto=format
 domain: 10xdev.codeparrot.ai
