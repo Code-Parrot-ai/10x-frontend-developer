@@ -39,7 +39,7 @@ The debate between **JWT (JSON Web Token)** and **Session-Based Authentication**
 
 ![enter image description here](https://cdn.hashnode.com/res/hashnode/image/upload/v1706026766255/C2bNi385Y.png?auto=format)
 
-1.  **JWT Structure:**
+#### JWT Structure:
 
 - **Header:** Specifies the token type (JWT) and the signing algorithm (e.g., HMAC SHA256).
 - **Payload:** Contains the claims, which are statements about an entity (user) and additional metadata.
@@ -47,25 +47,25 @@ The debate between **JWT (JSON Web Token)** and **Session-Based Authentication**
 
 ![jwt_dia](https://cdn.hashnode.com/res/hashnode/image/upload/v1706077068927/nmPYmw2sI.jpg?auto=format)
 
-2.  **JWT in Action:**
+#### JWT in Action:
 
 - Upon user authentication, the server generates a JWT.
 - This JWT is sent back to the client and stored, often in local storage or an HTTP-only cookie.
 - The client includes this token in the HTTP Authorization header for subsequent requests.
 - The server validates the token and grants access if valid.
 
-3.  **Advantages:**
+#### Advantages:
 
 - **Scalability:** Due to their stateless nature, JWTs are ideal for distributed systems.
 - **Flexibility:** They can be used across different domains and applications.
 - **Security:** When properly implemented, they provide a secure way to handle user authentication.
 
-4.  **Security Concerns:**
+#### Security Concerns:
 
 - **Transmission Security:** It's vital to transmit JWTs over HTTPS.
 - **Storage:** Store JWTs securely to prevent XSS attacks and other vulnerabilities.
 
-5.  **Handling Token Expiry:**
+#### Handling Token Expiry:
 
 - Implement short-lived JWTs and use refresh tokens for renewing access without re-authentication.
 
@@ -73,18 +73,19 @@ The debate between **JWT (JSON Web Token)** and **Session-Based Authentication**
 
 Session-based authentication, often referred to as cookie-based authentication, is a method where the server plays a pivotal role in maintaining user authentication records.
 
-**How It Works:**
+#### How it works:
 
 1.  **User Authentication**: The user provides credentials, which the server verifies.
 2.  **Session Creation**: Upon successful authentication, the server creates a session record with a unique identifier, user identifier, session start time, expiry, and possibly additional context like IP address and User Agent. Stores that in Database.
 3.  **Cookie Storage**: This session identifier is sent back and stored as a cookie in the user’s browser.
-4.  **Session Validation**: Each request from the user’s browser includes this cookie, then server validates the session by querying to Database. If it's the
-    **Advantages of Session Cookies:**
+4.  **Session Validation**: Each request from the user’s browser includes this cookie, then server validates the session by querying to Database. If valid, the request is processed.
+
+#### Advantages:
 
 - **Simplicity and Reliability**: The server’s session record acts as a centralized truth source, making it straightforward to manage user sessions.
 - **Revocation Efficiency**: Access can be quickly revoked by deleting or invalidating the session record, ensuring up-to-date session validity.
 
-**Disadvantages of Session Cookies:**
+#### Disadvantages:
 
 - **Performance Issues at Scale**: The dependency on database interactions for every session validation can introduce latency, particularly for high-traffic applications.
 - **Latency in Dynamic Environments**: In applications with dynamic clients, this latency can impact user experience, making session-based authentication less ideal in such scenarios.
