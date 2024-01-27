@@ -1,11 +1,11 @@
 ---
-title:  "React Redefined: Discovering the Lightweight Efficiency of Preact"
+title:  "Preact: Lightweight React Alternative"
 
 subtitle:  "Exploring Preact's Advantages in Performance and Size for Enhanced Web Development"
 
-slug:  "react-redefined-lightweight-efficiency-preact"
+slug:  "preact-lightweight-react"
 
-tags:  web development, frontend security, javascript, reactjs, preact
+tags:  web development, frontend, javascript, reactjs, preact
 
 cover:  https://cdn.hashnode.com/res/hashnode/image/upload/v1705994846216/1zhk2jHhg.webp?auto=format
 
@@ -14,8 +14,6 @@ domain:  10xdev.codeparrot.ai
 saveAsDraft:  false
 
 ---
-
-Have you ever wondered if there's a more efficient way to build your web applications, beyond the familiar realms of React? In the dynamic world of frontend development, are you constantly looking for tools that offer performance without compromising on ease of use? What if there was a framework that promised the familiarity of React, but with added efficiency and speed? Enter Preact: a lightweight alternative that might just revolutionize the way you approach your projects. But what exactly is Preact, and how does it compare to the widely-used React? In this blog, we'll delve into the world of Preact, exploring its features, benefits, and how it could be a game-changer in your development toolkit.
 
 ### What is Preact?
 
@@ -50,7 +48,7 @@ Preact is particularly well-suited for:
 
 | Feature            | React           | Preact       |
 |--------------------|-----------------|--------------|
-| Size               | 100KB           | **3KB**  😎        |
+| Size               | 100KB           | **3KB**  😎  |
 | Build Time         | Slower          | Faster       |
 | Virtual DOM        | ✔               | ✔            |
 | Ecosystem          | Large           | Small      |
@@ -130,7 +128,7 @@ While Preact aims to be as compatible as possible with React, there are some dif
 - Preact's handling of `this.props`, `this.state`, and `setState()` can have subtle differences.
 
 
-### Preact in Action: Case Studies
+### Case Studies
 
 Preact has been successfully used in various projects, ranging from small personal blogs to large-scale commercial applications. Examples include:
 - [Uber's web app](https://eng.uber.com/m-uber/), which used Preact for its lightweight nature.
