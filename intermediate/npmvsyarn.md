@@ -7,7 +7,7 @@ slug:  "npm-vs-yarn-frontend-package-management"
 
 tags:  web development, frontend, javascript, reactjs, npm, yarn
 
-cover:  https://cdn.hashnode.com/res/hashnode/image/upload/v1706682634562/7oU0930ZP.png?auto=format
+cover:  https://cdn.hashnode.com/res/hashnode/image/upload/v1706683361281/eiMbM9Ojk.png?auto=format
 
 domain:  10xdev.codeparrot.ai
 
