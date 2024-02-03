@@ -1,7 +1,7 @@
 ---
 title:  "npm vs npx: Friends or Enemy?"
 
-subtitle:  "Learn about the key differences and complimentary nature of npm and npx"
+subtitle:  "Learn about the supplementary and complimentary nature of npm and npx"
 
 slug:  "npm-vs-npx-package-management"
 
