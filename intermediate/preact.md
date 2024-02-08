@@ -7,7 +7,7 @@ slug:  "preact-lightweight-react"
 
 tags:  web development, frontend, javascript, reactjs, preact
 
-cover:  https://cdn.hashnode.com/res/hashnode/image/upload/v1705994846216/1zhk2jHhg.webp?auto=format
+cover:  https://cdn.hashnode.com/res/hashnode/image/upload/v1707386660895/QhfuioEfd.png?auto=format
 
 domain:  10xdev.codeparrot.ai
 
