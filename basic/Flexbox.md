@@ -2,7 +2,6 @@
 title: CSS Flexbox
 subtitle: Understanding the principles of Flexbox layout in CSS
 slug: CSS-Flexbox
-tags: CSS
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704189402735/Dpnzs_RRe.png?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
