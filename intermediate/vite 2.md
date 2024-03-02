@@ -1,30 +1,28 @@
 ---
 title: "Why Vite is the best? Advanced Features of Vite"
 
-subtitle: "Learn about the key differences and complimentary nature of npm and npx"
+subtitle: "Learn about advanced features of Vite and how it can revolutionize your frontend development."
 
-slug: "npm-vs-npx-package-management"
+slug: "why-vite-is-the-best-advanced-features-of-vite"
 
-tags: web development, frontend, javascript, reactjs, npm, npx
+tags: "vite", "frontend", "javascript", "web-development", "react", "vue", "svelte"
 
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706941937960/0D57g4zj9.png?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709377058240/4D_mjj4y8.webp?auto=format
 
 domain: 10xdev.codeparrot.ai
 
 saveAsDraft: false
 ---
 
-## Advanced Features of Vite
+Vite is revolutionizing the way we approach frontend development with its exceptional speed and efficiency. This blog explores the more sophisticated applications of Vite, highlighting its potential beyond mere app creation.
 
-Vite is transforming the landscape of frontend development with its unparalleled speed and efficiency. This blog delves into the advanced use cases of Vite, showcasing its capabilities beyond simple application development.
+### Pre-bundling Modules with Vite
 
-### Module Pre-bundling with Vite
+A key highlight of Vite is its method of managing `node_modules` during development. By pre-bundling dependencies using esbuild, Vite significantly lightens the browser's workload, thus speeding up development.
 
-One of Vite's standout features is its approach to handling `node_modules` during development. By pre-bundling dependencies with esbuild, Vite significantly reduces the browser's load, enhancing development speed.
+#### Optimizing Pre-bundling:
 
-#### How to Leverage Pre-bundling:
-
-Vite's pre-bundling is automatic, but you can tailor it in `vite.config.js`. For example:
+Vite automatically pre-bundles dependencies, but you can fine-tune this process in `vite.config.js`. For instance:
 
 ```javascript
 // vite.config.js
@@ -36,16 +34,16 @@ export default {
 };
 ```
 
-This customization ensures your project runs optimally by precisely controlling dependency handling.
+This configuration allows you to optimize your project's performance by managing dependencies more effectively.
 
-### Leveraging Vite for Library Development
+### Developing Libraries with Vite
 
-Vite excels in library development, thanks to its fast Hot Module Replacement (HMR) and simple setup.
+Vite is also highly efficient for library development, offering quick Hot Module Replacement (HMR) and an easy setup process.
 
-#### Steps to Create a Library with Vite:
+#### Steps for Library Creation with Vite:
 
-1. Initialize a new project with a library template.
-2. In `vite.config.js`, configure the build options for desired output formats:
+1. Start a new project using a library-focused template.
+2. Set up your `vite.config.js` to define build options and output formats:
    ```javascript
    export default {
      build: {
@@ -57,26 +55,26 @@ Vite excels in library development, thanks to its fast Hot Module Replacement (H
      },
    };
    ```
-3. Enjoy Vite's instant feedback loop during development.
-4. Build your library for publication with `vite build --mode lib`.
+3. Benefit from Vite's rapid development feedback loop.
+4. Use `vite build --mode lib` to prepare your library for release.
 
-### Enhancing SEO and Performance with SSR and SSG
+### Boosting SEO and Performance with SSR and SSG
 
-SSR and SSG are vital for SEO and performance. Vite supports these out of the box for frameworks like Vue and React.
+For SEO and performance, SSR and SSG are essential. Vite natively supports these for frameworks like Vue and React.
 
-#### Implementing SSR/SSG with Vite:
+#### Implementing SSR/SSG in Vite:
 
-- Use Vite's SSR mode for server pre-rendering, enhancing initial load time.
-- Leverage tools like VitePress or third-party plugins for SSG, benefiting from static site speed and SEO.
+- Activate SSR in Vite for server-side rendering, improving load times.
+- Utilize VitePress or external plugins for SSG, taking advantage of static site benefits and SEO improvements.
 
-### Building with Vite Plugins
+### Expanding Functionality with Vite Plugins
 
-Vite's plugin ecosystem allows for extending its core functionality, from framework support to CSS preprocessing.
+Vite's extensive plugin ecosystem allows for the expansion of its core capabilities, including framework support and CSS preprocessing.
 
-#### How to Add a Plugin:
+#### Plugin Installation:
 
-1. Install your chosen plugin via npm.
-2. Configure it in `vite.config.js`:
+1. Add the desired plugin via npm.
+2. Include it in your `vite.config.js`:
 
    ```javascript
    import vue from "@vitejs/plugin-vue";
@@ -87,18 +85,15 @@ Vite's plugin ecosystem allows for extending its core functionality, from framew
    };
    ```
 
-## Using Pre-Processors
+### Incorporating Pre-Processors
 
-Vite has built-in support for Sass, Less and Stylus. They can be added to the project simply by installing them as dependencies. For this example, let’s install Sass.
+Vite seamlessly supports pre-processors like Sass, Less, and Stylus. Installing Sass, for example, is straightforward:
 
 ```shell
 $ npm install -D sass
-
 ```
 
-Shell
-
-Next, let’s move the counter logic from the `App.jsx` file to a new component called `Counter`.
+Then, refactor your `App.jsx` to use a new `Counter` component.
 
 **src/components/Counter.jsx**
 
@@ -111,7 +106,7 @@ const Counter = () => {
 
   return (
     <div className={styles.counter}>
-      <button type="button" onClick={() => setCount((count) => count + 1)}>
+      <button onClick={() => setCount((count) => count + 1)}>
         count is: {count}
       </button>
     </div>
@@ -121,9 +116,7 @@ const Counter = () => {
 export default Counter;
 ```
 
-React JSX
-
-Using Sass is as simple as creating a new file with `.scss` extension and then importing it in a component. Besides Sass, we will also use CSS modules. They can be used by simply adding `.module` before the file extension in the file name. For example, `styles.module.css` or `styles.module.scss` if you are using a CSS pre-processor.
+To use Sass, simply create a `.scss` file and import it into your component. This also demonstrates the use of CSS modules.
 
 **src/components/counter.module.scss**
 
@@ -133,9 +126,7 @@ Using Sass is as simple as creating a new file with `.scss` extension and then i
 }
 ```
 
-CSS
-
-Finally, update the `App.jsx` file.
+And update your `App.jsx`.
 
 **src/App.jsx**
 
@@ -154,27 +145,9 @@ function App() {
 export default App;
 ```
 
-React JSX
+### Simplifying Imports with Absolute Paths in Vite
 
-## Path Resolving and Absolute Imports With Vite
-
-One thing I really find cumbersome is having to import components using relative paths. While our example is simple, I worked on projects that had a lot of nested files, and sometimes imports looked like this:
-
-```js
-import FancyModal from "../../../../components/modal/FancyModal/FancyModal.jsx";
-```
-
-JavaScript
-
-Wouldn’t it be great if, instead, we could do something like this?
-
-```js
-import FancyModal from "@/components/modal/FancyModal/FancyModal.jsx";
-```
-
-JavaScript
-
-Personally, I prefer to use absolute imports as they are much cleaner. We can configure Vite to support them by modifying the `vite.config.js` file. Below, you can see the code for adding the `@` alias that will resolve to the `src` directory.
+Avoiding complex relative paths is a boon, and Vite makes it easy to use absolute imports via a simple `vite.config.js` tweak.
 
 **vite.config.js**
 
@@ -183,7 +156,6 @@ import path from "path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -194,30 +166,9 @@ export default defineConfig({
 });
 ```
 
-JavaScript
+Also, inform your code editor of this configuration through `jsconfig.json` or `tsconfig.json` for TypeScript.
 
-Besides configuring Vite to resolve the `@` alias, we also need to tell our code editor about it. We can do so by creating the `jsconfig.json` file with the contents below.
-
-**jsconfig.json**
-
-```json
-{
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    }
-  }
-}
-```
-
-JSON
-
-If you’re using TypeScript, then you would do it in a `tsconfig.json` file.
-
-Finally, we can update the `Counter` import.
-
-**src/App.jsx**
+**src/App.jsx** then becomes simpler:
 
 ```jsx
 import "./App.css";
@@ -234,11 +185,9 @@ function App() {
 export default App;
 ```
 
-React JSX
+## Managing Environmental Variables
 
-## Environmental Variables
-
-There is a slight difference when it comes to using environmental variables in applications scaffolded with Vite. First of all, any environmental variables defined in the `.env` file that should be exposed to the client-side code need to be prefixed with `VITE_`word. Create a new `.env` file in the root directory and add `VITE_MESSAGE` variable as shown below.
+Vite handles environmental variables differently, requiring a `VITE_` prefix for client-side exposure.
 
 **.env**
 
@@ -246,11 +195,9 @@ There is a slight difference when it comes to using environmental variables in a
 VITE_MESSAGE = "Hello Vite!";
 ```
 
-JavaScript
+Vite exposes these variables
 
-Another difference is how we access this environmental variable in the application. Most CLIs, such as Create React App, expose environmental variables on the `process.env` object. However, Vite exposes them on `import.meta.env` instead.
-
-Let’s update the `App` component to display the `Hello Vite!` message.
+via `import.meta.env` rather than `process.env`.
 
 **src/App.jsx**
 
@@ -270,60 +217,6 @@ function App() {
 export default App;
 ```
 
-## Building a React Project With Vite
+### Is Vite the Future of Frontend Development?
 
-Vite can be used to scaffold projects for multiple frameworks, such as React, Vue, Svelte, etc. For this example, let’s create a React application. Run one of the commands below in your terminal.
-
-```shell
-# npm 6.x
-npm init vite@latest my-vite-react-app --template react
-
-# npm 7+, extra double-dash is needed:
-npm init vite@latest my-vite-react-app -- --template react
-
-# yarn
-yarn create vite my-vite-react-app --template react
-
-# pnpm
-pnpm create vite my-vite-react-app -- --template react
-
-```
-
-Shell
-
-After the project is scaffolded, cd into it, install all dependencies and start the development server.
-
-```shell
-$ cd my-vite-react-app
-$ npm install // or yarn
-$ npm run dev // or yarn dev
-
-```
-
-Shell
-
-By default, the dev server starts on port 3000, so head to http://localhost:3000 in your browser. You should see something like:
-
-![Vite React](https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2022/2022-01/vite-react-start.png?sfvrsn=199fe148_2 "Vite React")
-
-That’s it for scaffolding the project. Let’s have a look at how we can add a pre-processor, such as SCSS, to a Vite project.
-
-## Comparing with Create-React-App
-
-### Flexibility and Configuration
-
-Vite offers more flexibility and easier configuration without the need to eject. This can be particularly beneficial in projects requiring custom build processes or integration with other tools.
-
-A project might need to integrate with a CMS, requiring custom webpack configurations. With CRA, this would mean ejecting and potentially complicating future upgrades. Vite, on the other hand, allows for easy customization through its `vite.config.js` file.
-
-### Development Speed
-
-Vite's speed in development, through its instant server start and fast HMR, presents a clear advantage, especially in projects where developer efficiency is paramount.
-
-In a team environment, where multiple developers are working on a complex application, Vite's rapid feedback loop can significantly enhance productivity compared to the slower start-up and refresh times associated with CRA.
-
-## Conclusion: Is Vite the Future of Frontend Development?
-
-Vite is more than a tool for speeding up development; it's a comprehensive solution for enhancing the developer experience, scalability, and performance of web applications. As the web development landscape continues to evolve, Vite stands out as a forward-thinking choice for developers aiming to stay ahead of the curve.
-
-Remember, the best tool is the one that fits your project's needs and team dynamics. With its modern approach and developer-friendly features, Vite is undoubtedly worth considering for your next project or to enhance your development workflow.
+Vite represents a leap forward in improving the developer experience, scalability, and performance of web applications. Its modern approach positions it as a compelling choice for future projects, underscoring the importance of selecting the right tool for your project's needs and team dynamics.
