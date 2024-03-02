@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Why Vite is the best? Advanced Features of Vite"
 
 subtitle: "Learn about the key differences and complimentary nature of npm and npx"
 
@@ -14,11 +14,7 @@ domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
 
-Certainly! Below is the enhanced version of your blog, incorporating the suggestions for improvement:
-
----
-
-## Advanced Use Cases of Vite
+## Advanced Features of Vite
 
 Vite is transforming the landscape of frontend development with its unparalleled speed and efficiency. This blog delves into the advanced use cases of Vite, showcasing its capabilities beyond simple application development.
 
@@ -90,70 +86,6 @@ Vite's plugin ecosystem allows for extending its core functionality, from framew
      plugins: [vue()],
    };
    ```
-
-## Comparing with Create-React-App
-
-### Flexibility and Configuration
-
-Vite offers more flexibility and easier configuration without the need to eject. This can be particularly beneficial in projects requiring custom build processes or integration with other tools.
-
-#### Comparative Insight:
-
-A project might need to integrate with a CMS, requiring custom webpack configurations. With CRA, this would mean ejecting and potentially complicating future upgrades. Vite, on the other hand, allows for easy customization through its `vite.config.js` file.
-
-### Development Speed
-
-Vite's speed in development, through its instant server start and fast HMR, presents a clear advantage, especially in projects where developer efficiency is paramount.
-
-#### Comparative Insight:
-
-In a team environment, where multiple developers are working on a complex application, Vite's rapid feedback loop can significantly enhance productivity compared to the slower start-up and refresh times associated with CRA.
-
-## Conclusion: Is Vite the Future of Frontend Development?
-
-Vite is more than a tool for speeding up development; it's a comprehensive solution for enhancing the developer experience, scalability, and performance of web applications. As the web development landscape continues to evolve, Vite stands out as a forward-thinking choice for developers aiming to stay ahead of the curve.
-
-Remember, the best tool is the one that fits your project's needs and team dynamics. With its modern approach and developer-friendly features, Vite is undoubtedly worth considering for your next project or to enhance your development workflow.
-
-## Scaffolding a React Project With Vite
-
-Vite can be used to scaffold projects for multiple frameworks, such as React, Vue, Svelte, etc. For this example, let’s create a React application. Run one of the commands below in your terminal.
-
-```shell
-# npm 6.x
-npm init vite@latest my-vite-react-app --template react
-
-# npm 7+, extra double-dash is needed:
-npm init vite@latest my-vite-react-app -- --template react
-
-# yarn
-yarn create vite my-vite-react-app --template react
-
-# pnpm
-pnpm create vite my-vite-react-app -- --template react
-
-```
-
-Shell
-
-After the project is scaffolded, cd into it, install all dependencies and start the development server.
-
-```shell
-$ cd my-vite-react-app
-$ npm install // or yarn
-$ npm run dev // or yarn dev
-
-```
-
-Shell
-
-By default, the dev server starts on port 3000, so head to http://localhost:3000 in your browser. You should see something like:
-
-![Vite React](https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2022/2022-01/vite-react-start.png?sfvrsn=199fe148_2 "Vite React")
-
-That’s it for scaffolding the project. Let’s have a look at how we can add a pre-processor, such as SCSS, to a Vite project.
-
----
 
 ## Using Pre-Processors
 
@@ -337,3 +269,61 @@ function App() {
 
 export default App;
 ```
+
+## Building a React Project With Vite
+
+Vite can be used to scaffold projects for multiple frameworks, such as React, Vue, Svelte, etc. For this example, let’s create a React application. Run one of the commands below in your terminal.
+
+```shell
+# npm 6.x
+npm init vite@latest my-vite-react-app --template react
+
+# npm 7+, extra double-dash is needed:
+npm init vite@latest my-vite-react-app -- --template react
+
+# yarn
+yarn create vite my-vite-react-app --template react
+
+# pnpm
+pnpm create vite my-vite-react-app -- --template react
+
+```
+
+Shell
+
+After the project is scaffolded, cd into it, install all dependencies and start the development server.
+
+```shell
+$ cd my-vite-react-app
+$ npm install // or yarn
+$ npm run dev // or yarn dev
+
+```
+
+Shell
+
+By default, the dev server starts on port 3000, so head to http://localhost:3000 in your browser. You should see something like:
+
+![Vite React](https://d585tldpucybw.cloudfront.net/sfimages/default-source/blogs/2022/2022-01/vite-react-start.png?sfvrsn=199fe148_2 "Vite React")
+
+That’s it for scaffolding the project. Let’s have a look at how we can add a pre-processor, such as SCSS, to a Vite project.
+
+## Comparing with Create-React-App
+
+### Flexibility and Configuration
+
+Vite offers more flexibility and easier configuration without the need to eject. This can be particularly beneficial in projects requiring custom build processes or integration with other tools.
+
+A project might need to integrate with a CMS, requiring custom webpack configurations. With CRA, this would mean ejecting and potentially complicating future upgrades. Vite, on the other hand, allows for easy customization through its `vite.config.js` file.
+
+### Development Speed
+
+Vite's speed in development, through its instant server start and fast HMR, presents a clear advantage, especially in projects where developer efficiency is paramount.
+
+In a team environment, where multiple developers are working on a complex application, Vite's rapid feedback loop can significantly enhance productivity compared to the slower start-up and refresh times associated with CRA.
+
+## Conclusion: Is Vite the Future of Frontend Development?
+
+Vite is more than a tool for speeding up development; it's a comprehensive solution for enhancing the developer experience, scalability, and performance of web applications. As the web development landscape continues to evolve, Vite stands out as a forward-thinking choice for developers aiming to stay ahead of the curve.
+
+Remember, the best tool is the one that fits your project's needs and team dynamics. With its modern approach and developer-friendly features, Vite is undoubtedly worth considering for your next project or to enhance your development workflow.
