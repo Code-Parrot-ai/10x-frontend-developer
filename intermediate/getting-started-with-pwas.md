@@ -1,7 +1,7 @@
 ---
 title: "Getting started with PWAs"
 
-subtitle: "A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app. Some popular PWAs are Starbucks, BMW"
+subtitle: "Dive into the world of Progressive Web Apps (PWAs) and transform your web development skills. This guide covers the key steps to create fast, engaging, and reliable applications that work like native apps"
 
 slug: "getting-started-with-pwas"
 
