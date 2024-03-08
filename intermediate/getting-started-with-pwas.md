@@ -29,16 +29,6 @@ PWAs are powered by the underlying browser engine (like Chrome, Safari, Firefox,
 
 3. API Access: Modern web browser engines provide a variety of APIs that enable web pages to access device features and perform more complex operations. These include service workers for offline support and background sync, Web App Manifest for installing the web app on the home screen, and other web APIs for accessing device hardware (like camera, GPS, etc.). PWAs utilize these APIs to offer a more app-like experience.
 
-### Why Should you consider a PWA?
-
-Let's get real—developers need to connect with users in a way that's not just functional, but delightful. Here's why a PWA might just be your best move:
-
-- **Feels Like an App, Works Like a Website:** Users get a snappy, app-like experience without leaving their browser. It's like having the best of both worlds.
-- **Save That Cash:** Building one PWA instead of multiple native apps for different platforms can be kinder to your budget.
-- **Offline? No Problem:** PWAs can work without an internet connection, so your users never miss out.
-- **Fresh and Up-to-Date:** PWAs update themselves silently, keeping your users always in the loop with the latest content.
-- **Be Seen, Get Found:** PWAs can boost your SEO, making it easier for new users to discover your business.
-
 ### Native apps vs PWAs
 
 So, should you build a native app or go with PWA? Here are some points to consider
