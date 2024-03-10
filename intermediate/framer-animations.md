@@ -8,7 +8,7 @@ domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
 
-An important part of improving the online application user experience is animation. Creating sophisticated and fluid animations in the React ecosystem has frequently proven difficult, requiring developers to go through a multitude of tools or battle with CSS animations. Framer Motion is a robust and adaptable toolkit created exclusively for React that streamlines the animation creation process. In this blog, we'll dive deep into what Framer Motion has to offer. Let's uncover how it can truly elevate your React applications, adding that spark of life to make them stand out.
+An important part of improving the online application user experience is animation. Creating sophisticated and fluid animations in the React ecosystem has frequently proven to be difficult, requiring developers to go through a multitude of tools or battle with CSS animations. Framer Motion is a robust and adaptable toolkit created exclusively for React that streamlines the animation creation process. In this blog, we'll dive deep into what Framer Motion has to offer. Let's explore how it might offer that extra spark needed to make your React applications stand out and truly elevate them.
 
 ## What is Framer Motion?
 
@@ -32,7 +32,7 @@ yarn add framer-motion
 
 ### Framer's `motion` component
 
-At the heart of Framer Motion is the motion component, a powerful and flexible tool that transforms standard React components or HTML elements into animated wonders. There's a motion component for every HTML and SVG element, for instance motion.div, motion.circle etc. When you use a motion component, you're not just working with a static element anymore. Instead, you gain access to a suite of properties that control animations, gestures, and more.
+At the heart of Framer Motion is the `motion` component, a powerful and flexible tool that transforms standard React components or HTML elements into animated wonders. There's a motion component for every HTML and SVG element, for instance `motion.div`, `motion.circle` etc. When you use a motion component, you're not just working with a static element anymore. Instead, you gain access to a suite of properties that control animations, gestures, and more.
 
 Creating a React Component and using the `motion` component, importing it from "framer-motion"
 
