@@ -83,6 +83,27 @@ In this example, a component is conditionally rendered based on the isVisible pr
 
 `initial`: Using this property, we may set the initial location of an animated object. This might be its scale, rotation, and location on the y and x axes.
 
+### Transitions
+A `transition` defines the type of animation used when animating between two values.It gives you control over the personality of each motion and gives your animations a smooth, snappy, or bouncy feel. You can use this prop to offer a uniform appearance and feel to all of your animations by applying it to both the animate and exit properties.
+
+
+#### Types of Transitions
+Framer Motion supports several types of transitions, each offering a unique effect:
+
+- **Tween:** The default type, useful for simple, straightforward animations. It interpolates values over time, providing a smooth transition from start to end.
+
+- **Spring:** Adds a natural, physics-based motion to your animations, making them feel more dynamic. Spring transitions are great for interactions and gestures, giving a responsive feedback loop to user inputs.
+
+- **Inertia:** Mimics a free-falling object coming to a rest, ideal for deceleration animations. It's particularly effective for swipe or momentum-based interactions.
+
+A Sample Example of using the `spring` transition:
+```bash
+<motion.div
+  animate={{ x: 100 }}
+  transition={{ type: "spring", stiffness: 100 }}
+/>
+```
+
 ### Gesture-Based Interactions
 
 Framer Motion also supports gesture-based interactions such as dragging, hovering, tapping, and more. These interactions can make the application feel more alive and responsive to user inputs.
