@@ -12,7 +12,7 @@ An important part of improving your application's user experience is animation. 
 
 ## What is Framer Motion?
 
-For any developer looking to add seamless and beautiful animations to their projects, Framer Motion is a viable solution. Fundamentally, Framer Motion is a library with extensive animation features that are both strong and easily accessible. Framer Motion's goal is make animations easy. Its simplicity and feature richness are what make it a wonderful tool. It focuses more on usability and performance as compared to other animation libraries.
+Framer motion is simple React library to add seamless and beautiful animations to projects. It has extensive animation features that are both strong and easily accessible.
 
 ## Getting started with Framer motion in React
 
@@ -35,7 +35,7 @@ At the heart of Framer Motion is the `motion` component, a powerful and flexible
 
 Creating a React Component and using the `motion` component, importing it from "framer-motion"
 
-```bash
+```javascript
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -62,7 +62,7 @@ To use `AnimatePresence`, wrap it around the components you wish to animate on e
 
 Here is a sample example for the same:
 
-```bash
+```javascript
 import { motion, AnimatePresence } from "framer-motion"
 
 export const MyComponent = ({ isVisible }) => (
@@ -96,7 +96,7 @@ Framer Motion supports several types of transitions, each offering a unique effe
 - **Inertia:** Mimics a free-falling object coming to a rest, ideal for deceleration animations. It's particularly effective for swipe or momentum-based interactions.
 
 A Sample Example of using the `spring` transition:
-```bash
+```javascript
 <motion.div
   animate={{ x: 100 }}
   transition={{ type: "spring", stiffness: 100 }}
@@ -111,7 +111,7 @@ Framer Motion also supports gesture-based interactions such as dragging, hoverin
 
 To make an element draggable, simply add the `drag` prop to a `motion` component. You can constrain the drag to a specific axis or define boundaries.
 
-```bash
+```javascript
 <motion.div drag="x" dragConstraints={{ left: -100, right: 100 }}>
   Drag me!
 </motion.div>
@@ -121,7 +121,7 @@ To make an element draggable, simply add the `drag` prop to a `motion` component
 
 Animating elements on hover or tap is straightforward with Framer Motion. Use the `whileHover` and `whileTap` props to define animations for these interactions.
 
-```bash
+```javascript
 <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
   Press Me
 </motion.button>
