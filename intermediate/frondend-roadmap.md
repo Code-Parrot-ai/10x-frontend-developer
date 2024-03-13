@@ -48,14 +48,6 @@ Learn Git - https://www.atlassian.com/git/tutorials/what-is-version-control
 There are many frameworks in JavaScript. You can pick one of them. React, Vue, and Angular are the most popular ones. You can start with React. It is easy to learn and has a large community. You can learn about components, props, and state in React. This can be learnt in 2-3 weeks.
 Learn React - https://react.dev/learn
 
-### Package Managers
-Package managers are used to manage the dependencies in the project. NPM and Yarn are the most popular ones. You can learn about NPM. You can learn how to install packages, update packages, and remove packages. This can be learnt in 1 day.
-Learn more about npm and yarn - https://dev.to/codeparrot/npm-vs-yarn-choose-the-right-package-manager-for-your-next-project-3dec
-
-### Learn about CSS Preprocessors (SASS or LESS)
-CSS preprocessors are used to make CSS more maintainable and extendable. You can learn about SASS. You can learn about variables, nesting, and mixins in SASS. This can be learnt in 1 weeks.
-Learn SASS - https://sass-lang.com/guide
-
 ### Use UI Libraries
 You can use UI libraries to make your website look good. You can use libraries like Chakra UI and Material UI. You can learn about the components and how to use them. This can be learnt in 1-2 weeks.
 Learn about Material UI and Chakra UI: https://dev.to/codeparrot/material-ui-vs-chakra-ui-which-one-to-choose-14f4
