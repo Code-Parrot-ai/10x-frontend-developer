@@ -1,5 +1,5 @@
 ---
-title: "Why not to use Server Side Rendering?"
+title: "Is server side rendering always good?"
 
 subtitle: "Learn about the drawbacks of server side rendering and when not to use it."
 
