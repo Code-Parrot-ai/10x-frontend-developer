@@ -1,36 +1,34 @@
 ---
 title: "Frontend Developer Roadmap 2024"
 
-subtitle: "Comprehensive guide to becoming a frontend developer"
+subtitle: "Comprehensive guide to becoming a job-ready frontend developer"
 
 slug: "frontend-developer-roadmap"
 
 tags: "frontend", "web-development", "javascript", "react"
 
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709377058240/4D_mjj4y8.webp?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1710332209204/c_6NTBW1l.webp?auto=format
 
 domain: 10xdev.codeparrot.ai
 
 saveAsDraft: false
 ---
 
-### Understanding the basics of Internet
-Before diving into the roadmap, let's learn about Internet. Things like domain, hosting, and DNS are important to understand before you start your journey as a frontend developer. 
+### Understanding the Internet Basics 🌐
+Before anything else, let's get to know how the internet works. It's all about domains, hosting, and how computers talk to each other using DNS. This knowledge is your first step in the web development world.
 Learn about basics of internet - https://cs.fyi/guide/how-does-internet-work
 
-### Building your first site
-The first step to becoming a frontend developer is to build your first website. You can start with a simple HTML and CSS website. This can be learnt in 3-4 days. In one week, you can have your first website up and running. This will give you confidence and motivation to learn more.
-In CSS focus on learning the basics of Flexbox and Grid.
+### Building Your First Site 🏗️
+Start with HTML and CSS to make your first website. It's pretty exciting! In just a week, you could be looking at your own site live on the internet. Focus on learning Flexbox and Grid in CSS. 
 Learn HTML - https://www.w3schools.com/html
 Learn CSS - https://www.w3schools.com/css
 
-### Interacting with JavaScript
-JavaScript is called the language of the web. It is used to make websites interactive. Focus on learning the basics of JavaScript like variables, loops, and functions. You can also learn about DOM manipulation. This can be learnt in 2-3 weeks.
-JavaScript is an essential part of web development, and you should focus on learning it well.
+### Interacting with JavaScript ✨
+JavaScript makes your website do things. Learn about variables, loops, functions, and how to change your website with DOM manipulation. Spend a few weeks on this; it's important!
 Learn JavaScript - https://www.w3schools.com/js
 
-### Making API Call
-APIs are used to fetch data from the server. You can learn how to make API calls using JavaScript. Here is an example in JavaScript (fetch method).
+### Making API Calls 📡
+APIs let your site get data from other places. You can start with the `fetch` method in JavaScript to grab data and show it on your site. It's like asking another server to send you some info.
 Later on you can learn about Axios and other libraries. For now, focus on fetch.
 
 ```javascript
@@ -40,33 +38,33 @@ fetch('https://dummyjson.com/products/1')
 ```
 Read more on fetch API - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
-### Version Control System
-Version control system is used to manage the changes in the code. Git is the most popular version control system. You can learn about Git and GitHub. Now no need to worry about losing your code. You can also learn about GitLab and Bitbucket. Focus more on branching, merging, and pull requests.
+### Understanding Version Control with Git 🔄
+Git helps you keep track of your code changes and work with others. It's like a safety net for your projects. Learn how to use Git and GitHub to save and share your work. You can also learn about GitLab and Bitbucket. Focus on branching, merging, and pull requests.
 Learn Git - https://www.atlassian.com/git/tutorials/what-is-version-control
 
-### Pick a Framework
-There are many frameworks in JavaScript. You can pick one of them. React, Vue, and Angular are the most popular ones. You can start with React. It is easy to learn and has a large community. You can learn about components, props, and state in React. This can be learnt in 2-3 weeks.
+### Choosing a Framework 🌐
+There are many frameworks in JavaScript. You can pick one of them. React, Vue, and Angular are the most popular ones. You can start with React. It is easy to learn and has a large community.Learn about components, props, and state. 
+**Tip**: Build a simple project to understand the concepts better.
 Learn React - https://react.dev/learn
 
-### Use UI Libraries
-You can use UI libraries to make your website look good. You can use libraries like Chakra UI and Material UI. You can learn about the components and how to use them. This can be learnt in 1-2 weeks.
+### Utilizing UI Libraries 📚
+Incorporate UI libraries like Material UI or Chakra UI to beautify your projects effortlessly. These libraries offer a plethora of components to speed up your development process.
 Learn about Material UI and Chakra UI: https://dev.to/codeparrot/material-ui-vs-chakra-ui-which-one-to-choose-14f4
 
-### Learn about State Management
-State management is used to manage the state of the application. You can learn about Redux. You can learn about actions, reducers, and store in Redux. This can be learnt in 1-2 weeks.
+###  Managing State 🧠
+State management tools like Redux help you keep track of user interactions and data across your application. It's a bit advanced but very useful for bigger projects. You can learn about actions, reducers, and store in Redux. You can also checkout MobX and Zustand.
 Learn about Redux - https://redux.js.org/introduction/getting-started
 Also check something beyond Redux - https://10xdev.codeparrot.ai/state-management-with-mobx-zustand
 
-### JWT and web security
-You can learn about JWT and web security. You can learn about how to secure your website. This can be learnt in 1-2 weeks.
-JWT, auth, SSO, Basic auth, Session auth etc.
+### Security with JWT 🔐
+Learning about JWT and web security is crucial to protect your sites. Understand how to keep your user's data safe from hackers. 
 You should also learn about CORS, HTTP etc.
 For cors - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 Learn JWT - https://10xdev.codeparrot.ai/securing-frontend-authentication-techniques
 
-### Learn about Testing
-You can learn about testing. You can learn about unit testing and integration testing. You can learn about Jest. This can be learnt in 1-2 weeks. Frameworks like Jest, Mocha, Jasmine etc.
+### Testing Your Code 🧪
+Learning Jest for unit and integration tests ensures your code's reliability and robustness, a must-have skill for any serious developer. Other options are Mocha, Jasmine etc.
 Learn Jest - https://jestjs.io/docs/getting-started
 
-### You are ready
+###  You're Ready! 🚀
 Now you are more than ready to start your career as a frontend developer. You can start applying for jobs and start working on real projects. You can also start contributing to open source projects. You can also start writing blogs and sharing your knowledge with the community. You can also start learning about backend technologies and become a full stack developer.
