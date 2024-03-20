@@ -138,7 +138,7 @@ of if you're using yarn:
 npx shadcn-ui@latest add alert-dialog
 ```
 
-Change the App.tsx to this:
+Change the `App.tsx` to this:
 
 ```typescript
 import { useState } from "react";
