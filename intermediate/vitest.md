@@ -63,17 +63,7 @@ This test renders the `Button` component and asserts that it contains the correc
 
 Then, execute `npm run test` in your terminal. Vitest will run the tests and provide you with instant feedback.
 
-### Best Practices for Effective Testing
-
-To make the most out of testing with Vitest, consider adopting these best practices:
-
-- **Write Descriptive Tests**: Ensure your test descriptions clearly express what they verify. This practice makes it easier to understand test failures and maintain tests over time.
-- **Embrace TDD (Test-Driven Development)**: Writing tests before your component logic can help guide your development process and ensure your components fulfill their intended functionality.
-- **Utilize Mocking Sparingly**: While mocking can be powerful, overuse can lead to brittle tests. Aim to test components in a manner as close to their real usage as possible.
-
-### Some more examples
-
-#### Component Testing with Vitest
+### Component Testing with Vitest
 
 Component testing focuses on testing the behavior of React components in isolation. Let's test a `TodoItem` component that displays a todo's text and a checkbox to mark the todo as completed.
 
@@ -118,7 +108,7 @@ describe('TodoItem', () => {
 });
 ```
 
-#### Unit Testing with Vitest
+### Unit Testing with Vitest
 
 Unit testing involves testing the smallest parts of an application in isolation (e.g., functions). Let's test a simple utility function that filters completed todos.
 
@@ -150,7 +140,7 @@ describe('filterCompletedTodos', () => {
 });
 ```
 
-#### Testing Hooks with Vitest
+### Testing Hooks with Vitest
 
 Testing React hooks allows you to ensure your custom hooks behave as expected. Let's test a custom hook `useCounter` that provides functionality to increment, decrement, and reset a counter.
 
