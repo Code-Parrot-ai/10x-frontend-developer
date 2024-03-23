@@ -1,5 +1,5 @@
 ---
-title: "Next.js Uploads: The Edge Store Boost"
+title: "Next.js Large file uploads using Edge Store"
 
 subtitle: "Uncover the simplicity and efficiency of managing file uploads in Next.js projects using Edge Store"
 
@@ -18,7 +18,7 @@ saveAsDraft: false
 
 ### The Current State of File Uploads in Next.js
 
-Currently, managing file uploads in Next.js involves establishing a server to process these uploads, followed by the meticulous task of crafting substantial boilerplate code to facilitate the entire process. This approach is not only time-intensive but also susceptible to errors, presenting a notable challenge for developers striving for efficiency and reliability in their applications.
+Handling file uploads in Next.js requires setting up a server to manage these uploads and writing a significant amount of boilerplate code. This process can be time-consuming and prone to errors, which poses a challenge for developers looking to create efficient and reliable applications when dealing with large files or low network conditions.
 
 ### What is EdgeStore?
 
