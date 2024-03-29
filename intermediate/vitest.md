@@ -115,8 +115,6 @@ This test renders the `Button` component and asserts that it contains the correc
 
 Then, execute `npm run test` in your terminal. Vitest will run the tests and provide you with instant feedback.
 
-Certainly! Let's dive deeper into the world of React testing with Vitest by exploring specific examples of component testing, unit testing, and hooks testing. These examples aim to illustrate practical scenarios that you might encounter in your development journey.
-
 ### Component Testing with Vitest
 
 Component testing focuses on testing the behavior of React components in isolation. Let's test a `TodoItem` component that displays a todo's text and a checkbox to mark the todo as completed.
