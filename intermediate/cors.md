@@ -40,13 +40,11 @@ When a web page attempts to make a cross-origin request, the browser automatical
 
 ## Solving CORS Errors
 
-Dealing with CORS errors involves understanding both the problem and the various ways it can be resolved. Here are the primary methods to tackle CORS errors:
-
 ### 1. Server-Side Configuration
 
 The most straightforward way to solve a CORS error is by configuring the server to include the appropriate CORS headers in the response. This can involve allowing specific origins by setting the `Access-Control-Allow-Origin` header or allowing all origins by setting its value to `*`. However, allowing all origins should be done with caution due to potential security risks.
 
-```http
+```javascript
 Access-Control-Allow-Origin: https://yourdomain.com
 ```
 
