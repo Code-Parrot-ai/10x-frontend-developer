@@ -1,3 +1,19 @@
+---
+title: "Build your Web Applications Faster with Modern Build Tools"
+
+subtitle: "Comparing Webpack, Vite, Parcel, and Snowpack effiecient building"
+
+slug: "react-build-tools-guide"
+
+tags: web-development, frontend, build tools, webpack, vite, parcel, snowpack
+
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712571245412/NfnrF-dvF.webp?auto=format
+
+domain: 10xdev.codeparrot.ai
+
+saveAsDraft: false
+---
+
 ### What is Building?
 
 "Building" refers to the process of transforming and bundling your source code into a format that browsers can efficiently interpret and execute.
