@@ -5,7 +5,7 @@ subtitle: "Discover the core differences and use cases between Git Merge and Git
 
 slug: "git-merge-vs-git-rebase"
 
-tags: "git", "version-control", "merge", "rebase", "git-merge", "git-rebase"
+tags: git, version-control, merge, rebase, git-merge, git-rebase
 
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713420416790/ILq5jKayC.webp?auto=format
 
