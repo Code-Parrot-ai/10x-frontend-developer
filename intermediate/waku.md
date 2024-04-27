@@ -7,7 +7,7 @@ slug: "waku-vs-nextjs"
 
 tags: web-development, frontend, react, waku, nextjs, server-side-rendering
 
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713538379735/nN5d8vTYn.png?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1713538526996/vlhNIZvrM.png?auto=format
 
 domain: 10xdev.codeparrot.ai
 
