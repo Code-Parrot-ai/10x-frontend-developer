@@ -1,3 +1,19 @@
+---
+title: "Astro: Building Content-Driven Websites Faster"
+
+subtitle: "A guide to creating performant websites with Astro, a modern static site generator."
+
+slug: "building-better-websites-with-astro-guide"
+
+tags: web-development, frontend, astro, static-site-generator, react
+
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714205752099/2eYYjW37Z.png?auto=format
+
+domain: 10xdev.codeparrot.ai
+
+saveAsDraft: false
+---
+
 ### What is Astro?
 
 Astro is a static site generator that allows developers to build websites that deliver content as static HTML, which can be enhanced with JavaScript as needed. This approach is known as "partial hydration," where you only load JavaScript for components that need it, significantly improving site performance. The philosophy behind Astro is to ship less JavaScript, do more with static content, and enhance progressively.
