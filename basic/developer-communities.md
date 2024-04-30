@@ -24,7 +24,7 @@ GitHub is a well-known platform for developers to collaborate on projects, share
 
 ### **2. Stack Overflow**
 
-[![Stack Overflow](https://cdn.hashnode.com/res/hashnode/image/upload/v1714410013770/Gnv-ReoHe.png?auto=format)](https://stackoverflow.com/)
+[![Stack Overflow](https://cdn.hashnode.com/res/hashnode/image/upload/v1714458922058/qdYAsqnGm.png?auto=format)](https://stackoverflow.com/)
 
 Stack Overflow is a question-and-answer platform for developers to ask and answer programming-related questions. It is a valuable resource for developers to find solutions to their coding problems and learn from others in the community. Stack Overflow has a vast community of developers who are willing to help and share their knowledge.
 
@@ -96,7 +96,7 @@ MDN is a comprehensive resource for web developers to learn about web technologi
 
 ### **8. Discord Developer Communities**
 
-[![Discord](https://cdn.hashnode.com/res/hashnode/image/upload/v1714410307575/RZbPN_Vyi.png?auto=format)](https://discord.com/)
+[![Discord](https://cdn.hashnode.com/res/hashnode/image/upload/v1714458817842/SdD4pxLx6.png?auto=format)](https://discord.com/)
 
 Discord has emerged as a popular platform for developer communities to connect, communicate, and collaborate in real-time. Numerous servers dedicated to programming languages, frameworks, and tech specialties allow developers to engage in discussions, seek help, and share resources seamlessly. These communities often host coding challenges, live events, and Q&A sessions, fostering a dynamic and interactive learning environment.
 
@@ -120,7 +120,7 @@ CodePen is an online community for front-end developers to showcase their work, 
 
 ### **10. CodeNewbie**
 
-[![CodeNewbie](https://cdn.hashnode.com/res/hashnode/image/upload/v1714410675532/8f42Niv76.png?auto=format)](https://www.codenewbie.org/)
+[![CodeNewbie](https://cdn.hashnode.com/res/hashnode/image/upload/v1714458862774/4X9C_8I2d.webp?auto=format)](https://www.codenewbie.org/)
 
 CodeNewbie is a community of people learning to code and pursuing careers in tech. It offers resources, podcasts, and events to help beginners get started with coding and advance their skills. CodeNewbie also hosts Twitter chats, local meetups, and conferences to connect developers and provide support for their learning journey.
 
