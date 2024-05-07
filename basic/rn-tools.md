@@ -94,7 +94,7 @@ Redux Debugger is an invaluable tool for managing and tracing the history of the
 
 - **Integration:** Works seamlessly within other tools like Flipper or as a standalone extension in browsers.
 
- **React Navigation**
+**React Navigation**
 
 React Navigation provides routing and navigation for your React Native apps. It is fully customizable and supports a variety of navigation patterns, making it a staple in many React Native projects.
 
