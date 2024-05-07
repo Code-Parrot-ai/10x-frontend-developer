@@ -12,7 +12,7 @@ In the swiftly evolving landscape of mobile app development, React Native develo
 
 ### Development Environments & Editors 🛠
 
-**Expo**
+[**Expo**](https://expo.dev/)
 
 Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React. It streamlines the development process by eliminating the need for native code compilation, providing a set of tools and services around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps from the same JavaScript/TypeScript codebase.
 
@@ -22,7 +22,7 @@ Expo is an open-source platform for making universal native apps for Android, iO
 
 - **Expo Go:** Test on real devices using the Expo Go app, which streamlines the testing phase.
 
-**Visual Studio Code (VS Code)**
+[**Visual Studio Code (VS Code)**](https://code.visualstudio.com/)
 
 Visual Studio Code is a lightweight but powerful source code editor from Microsoft that runs on your desktop. It comes with built-in support for JavaScript, TypeScript, and Node.js and has a rich ecosystem of extensions for other languages (including C++, C#, Java, Python, PHP, and more) and runtimes.
 
@@ -32,7 +32,7 @@ Visual Studio Code is a lightweight but powerful source code editor from Microso
 
 - **Version Control:** Built-in Git support for version control.
 
-**Zed**
+[**Zed**](https://zed.dev/)
 
 Zed is a cloud-based IDE that provides a flexible and accessible coding environment from any device. It is designed to enhance real-time collaboration among team members, regardless of their physical location.
 
@@ -42,7 +42,7 @@ Zed is a cloud-based IDE that provides a flexible and accessible coding environm
 
 - **Efficient Workflows:** Integrates with GitHub and other tools for seamless workflows.
 
-**Xcode**
+[**Xcode**](https://developer.apple.com/xcode/)
 
 Xcode is Apple’s integrated development environment (IDE) for macOS, used to develop software for macOS, iOS, iPadOS, watchOS, and tvOS. It contains a suite of tools for developing and debugging applications, with a rich set of features tailored specifically for the development of UI elements.
 
@@ -53,7 +53,7 @@ Interface Builder: Design and prototype user interface without writing code.
 
 ### Debugging & Diagnostic Tools 🐞
 
-**Reactotron**
+[**Reactotron**](https://github.com/infinitered/reactotron)
 
 Reactotron is a desktop app for inspecting React JS and React Native projects. It provides a real-time interface to help you understand how your app behaves, simplifies debugging, and enhances performance understanding.
 
@@ -62,7 +62,7 @@ Customizable Features: Extend Reactotron's capabilities with plugins and custom 
 
 - **Networking:** Inspect networking with clear, formatted outputs.
 
- **Flipper**
+[**Flipper**](https://fbflipper.com/)
 
 Flipper is a debugging platform for mobile apps, allowing developers to easily view and manage the state and behavior of their apps. Equipped with a robust set of default plugins, it also supports custom plugins for tailored functionality.
 Comprehensive Debugging: Use Flipper for visual debugging, performance monitoring, and network inspection.
@@ -72,7 +72,8 @@ Comprehensive Debugging: Use Flipper for visual debugging, performance monitorin
 - **Mobile-first Focus:** Specifically designed for mobile app developers, offering tailored tools for mobile environments.
 
 ### Language Enhancements 📝
-**TypeScript**
+
+[**TypeScript**](https://www.typescriptlang.org/)
 
 TypeScript is a superset of JavaScript that compiles to plain JavaScript, developed and maintained by Microsoft. It offers all of JavaScript's features, with an additional layer of typing.
 
@@ -84,7 +85,7 @@ TypeScript is a superset of JavaScript that compiles to plain JavaScript, develo
 
 ### State Management & Navigation 🧭
 
-**Redux Debugger**
+[**Redux Debugger**](https://github.com/jhen0409/react-native-debugger)
 
 Redux Debugger is an invaluable tool for managing and tracing the history of the state in apps that use Redux for state management. It provides visual insights into the state changes and action dispatches across your app, enhancing traceability and debugging capabilities.
 
@@ -94,7 +95,7 @@ Redux Debugger is an invaluable tool for managing and tracing the history of the
 
 - **Integration:** Works seamlessly within other tools like Flipper or as a standalone extension in browsers.
 
-**React Navigation**
+[**React Navigation**](https://reactnavigation.org/)
 
 React Navigation provides routing and navigation for your React Native apps. It is fully customizable and supports a variety of navigation patterns, making it a staple in many React Native projects.
 
@@ -105,7 +106,8 @@ React Navigation provides routing and navigation for your React Native apps. It 
 - **Optimized Performance:** Efficiently handles large numbers of screens and complex transitions.
 
 ### Deployment Automation 🚀
-**Fastlane**
+
+[**Fastlane**](https://fastlane.tools/)
 
 Fastlane automates every aspect of your development and release workflow. It's particularly effective in managing tasks like generating screenshots, dealing with provisioning profiles, and pushing apps to the app stores.
 
