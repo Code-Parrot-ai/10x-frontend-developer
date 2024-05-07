@@ -35,9 +35,12 @@ Visual Studio Code is a lightweight but powerful source code editor from Microso
 **Zed**
 
 Zed is a cloud-based IDE that provides a flexible and accessible coding environment from any device. It is designed to enhance real-time collaboration among team members, regardless of their physical location.
-Cloud-based IDE: Access your development environment from any device.
-Real-time Collaboration: Code together in real time with team members.
-Efficient Workflows: Integrates with GitHub and other tools for seamless workflows.
+
+- **Cloud-based IDE:** Access your development environment from any device.
+
+- **Real-time Collaboration:** Code together in real time with team members.
+
+- **Efficient Workflows:** Integrates with GitHub and other tools for seamless workflows.
 
 **Xcode**
 
