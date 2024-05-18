@@ -68,7 +68,7 @@ npm install @react-navigation/stack @react-navigation/bottom-tabs @react-navigat
 
 To set up the basic configuration for React Navigation, you need to wrap your app in a `NavigationContainer`. Here's an example:
 
-```jsx
+```typescript
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
@@ -97,7 +97,7 @@ In your components, you can use the `navigation` prop to navigate between screen
 
 Consider this to be the Home Screen of the app:
 
-```tsx
+```typescript
 // ..
 
 interface HomeScreenProps {
@@ -125,7 +125,7 @@ export default HomeScreen;
 
 And this to be some page called the details page:
 
-```tsx
+```typescript
 // ..
 
 interface DetailsScreenProps {
@@ -153,7 +153,7 @@ export default DetailsScreen;
 
 In your App.tsx, you can pass the `screenOptions` prop to the `Stack.Navigator` to customize the header style:
 
-```tsx
+```typescript
 <Stack.Navigator
     screenOptions={{
         headerStyle: {
@@ -177,7 +177,7 @@ Since we have connected these screens using a stack navigator the output should 
 
 Change your `App.tsx` to use Tab Navigator instead of Stack Navigator:
 
-```tsx
+```typescript
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
@@ -234,7 +234,7 @@ You should see something like this:
 
 Change your `App.tsx` to use Drawer Navigator instead of Stack Navigator:
 
-```tsx
+```typescript
 // ...
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
@@ -288,7 +288,7 @@ React Navigation allows you to pass parameters along with the route when navigat
 
 Let's define a parameter to pass in the `HomeScreen` component:
 
-```tsx
+```typescript
   const productDetails = {
     id: '01',
     name: 'Example Product',
@@ -298,7 +298,7 @@ Let's define a parameter to pass in the `HomeScreen` component:
 
 In the `HomeScreen` component, you can pass the parameter to the `DetailsScreen` component:
 
-```tsx
+```typescript
 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Details', {product: productDetails})}>
     <Text style={styles.buttonText}>Go to Details</Text>
 </TouchableOpacity>
@@ -308,7 +308,7 @@ You pass the parameters by providing an object as the second argument to the `na
 
 In the `DetailsScreen` component, you can access the parameter using the `route` prop:
 
-```tsx
+```typescript
 interface DetailsScreenProps {
   navigation: any;
   route: any;
