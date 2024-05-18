@@ -17,7 +17,7 @@ saveAsDraft: false
 ## What is Routing? Why Do We Need It?
 
 Routing is how you navigate in a web application. It allows you to map URL paths to specific components, enabling users to access various parts of your app without needing to reload the page.
-Routing is essential because it provides a seamless user experience, making your application feel more like a traditional desktop app. It helps in organizing and managing different views, maintaining a clean and efficient codebase, and enabling features like deep linking and dynamic content loading.
+Routing is important because it ensures a seamless user experience, making your app feel similar to a desktop application. It helps in organizing and managing different views, maintaining a clean and efficient codebase, and enabling features like deep linking and dynamic content loading.
 
 ## The Good Ol' Days of `Switch`
 
@@ -240,7 +240,7 @@ In this example, `fetchData` is called before rendering the `Home` component, en
 
 ## Best Practices
 
-1. **Organize Routes:**
+### Organize Routes
 
 Organize your routes in a separate file to keep your code clean and maintainable. For example, create a `routes.js` file:
 
@@ -285,7 +285,7 @@ function App() {
 export default App;
 ```
 
-2. **Use Lazy Loading:**
+### Use Lazy Loading
 
 For better performance, use lazy loading to load components only when needed. React’s `lazy` and `Suspense` can help with this:
 
