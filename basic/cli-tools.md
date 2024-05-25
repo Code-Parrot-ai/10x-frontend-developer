@@ -1,7 +1,7 @@
 ---
 title: CLI Tools every Developer should know
 subtitle: Explore some essential CLI tools to enhance your development experience and productivity as a developer.
-slug: top-10-cli-tools
+slug: top-cli-tools-for-developers
 tags: cli, productivity, development, tools
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716595292517/EC158zIuz.webp?auto=format
 domain: 10xdev.codeparrot.ai
