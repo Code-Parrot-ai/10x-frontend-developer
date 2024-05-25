@@ -14,7 +14,7 @@ domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
 
-## What is Routing? Why Do We Need It?
+## What is Routing? Why Do We Need It? 🧭
 
 Routing is how you navigate in a web application. It allows you to map URL paths to specific components, enabling users to access various parts of your app without needing to reload the page.
 Routing is important because it ensures a seamless user experience, making your app feel similar to a desktop application. It helps in organizing and managing different views, maintaining a clean and efficient codebase, and enabling features like deep linking and dynamic content loading.
@@ -49,7 +49,7 @@ export default App;
 
 Pretty neat, right? But as our apps grew more complex, `Switch` started to show its limitations.
 
-## Problems and Limitations of `Switch`
+## Problems and Limitations of `Switch` 😬
 
 ### 1. Lack of Nested Routes
 
@@ -80,7 +80,7 @@ Handling data fetching and route-based data loading wasn't straightforward with 
 
 As React evolved with new features like hooks and concurrent rendering, `Switch` didn't keep pace. Integrating these modern features into the routing logic required additional effort and custom solutions, making it harder to leverage the full power of React's latest advancements.
 
-## Say Hello to `createBrowserRouter`
+## Say Hello to `createBrowserRouter` 👋
 
 With the release of React Router version 6, we got `createBrowserRouter`. It’s packed with powerful features that make routing in React apps easier and more efficient.
 
@@ -139,7 +139,7 @@ function App() {
 export default App;
 ```
 
-## Cool New Features in `createBrowserRouter`
+## Cool New Features in `createBrowserRouter` 🤩
 
 ### Nested Routes
 
@@ -337,4 +337,4 @@ export default App;
 
 `createBrowserRouter` is a big step up from the traditional `Switch` component, offering enhanced flexibility and functionality. With features like nested routes, route parameters, error handling, and data fetching, you can create dynamic and efficient routes for your projects.
 
-For more info refer the [documentation](https://reactrouter.com/docs/en/v6)
+For more info refer the [documentation](https://reactrouter.com/en/6.23.1/start/overview)
