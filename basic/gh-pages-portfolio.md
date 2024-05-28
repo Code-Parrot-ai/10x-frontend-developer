@@ -91,7 +91,7 @@ section {
 
 This code creates a simple HTML file with a header, an about me section, and a projects section. It also links to a CSS file that styles the website. You can customize this code to add your own content and styling. Or you can use a template from a site like [HTML5 UP](https://html5up.net/) or [Start Bootstrap](https://startbootstrap.com/) to get started.
 
-Or if you prefer to use a framework, you can do the same, and you can follow my article on [Deploying React App to GitHub Pages](https://10xdev.codeparrot.ai/deploying-react-app-to-github-pages) to deploy your React app to GitHub Pages.
+Or if you prefer to use a framework, you can do the same, and you can follow my article on [Deploying React App to GitHub Pages](https://10xdev.codeparrot.ai/deploying-react-apps-to-github-pages-with-github-actions) to deploy your React app to GitHub Pages.
 
 We will also be configuring a custom domain for our portfolio which I have not covered in my previous article. If you're here to learn about custom domains, it will be covered in the next steps.
 
