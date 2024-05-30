@@ -1,13 +1,13 @@
 ---
 title: "Light House vs Web Vitals: Which score is real?"
 
-subtitle: "Discover how to use React Profiler to find and fix performance issues in your React applications."
+subtitle: "Understand the differences between Google Lighthouse and Web Vitals scores and why they might differ."
 
-slug: "optimize-react-components-with-the-react-profiler"
+slug: "light-house-vs-web-vitals"
 
-tags: react, performance, optimization, react-profiler, react-memo, usecallback
+tags: performance, lighthouse, web-vitals, user-experience, web-development
 
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716613534464/I38p952Do.png?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717092988634/59HSj2OZK.webp?auto=format
 
 domain: 10xdev.codeparrot.ai
 
@@ -20,18 +20,20 @@ Google Lighthouse is an open-source, automated tool for improving the quality of
 
 ### How to Run Lighthouse
 
-You can easily run a Lighthouse audit directly from the Chrome DevTools:
+Running a Lighthouse audit is straightforward:
 
 1. Open Chrome DevTools (F12 or right-click on the page and select "Inspect").
 2. Click on the “Lighthouse” tab.
 3. Select the categories you want to audit (Performance, Accessibility, Best Practices, SEO, PWA).
 4. Click “Generate report”.
 
-Example report of codeparrot.ai
+Here’s an example of a Lighthouse report for codeparrot.ai:
 
-![lighthouse report](https://cdn.hashnode.com/res/hashnode/image/upload/v1716967587209/I4tSa4WhE.png?auto=format)
+![Lighthouse report](https://cdn.hashnode.com/res/hashnode/image/upload/v1716967587209/I4tSa4WhE.png?auto=format)
 
 ## Overview of a Lighthouse Report
+
+Lighthouse generates scores across multiple categories. Here’s a snapshot of what you might see:
 
 - **Performance:** 91
 - **Accessibility:** 95
@@ -42,29 +44,25 @@ Example report of codeparrot.ai
 ### Performance (91)
 
 - **First Contentful Paint (FCP):** 2.1 seconds
-  - Time taken for the first text or image to be painted.
+  - This is the time it takes for the first piece of content to be painted on the screen.
 - **Largest Contentful Paint (LCP):** 2.9 seconds
-  - Time taken for the largest content element to be painted.
+  - This measures how long it takes for the largest content element to be painted.
 - **Total Blocking Time (TBT):** 100 milliseconds
-  - Sum of all time periods between FCP and Time to Interactive, when the main thread was blocked for long enough to prevent input responsiveness.
+  - The total time the main thread is blocked, preventing user input responsiveness.
 - **Cumulative Layout Shift (CLS):** 0.003
-  - Measures the visual stability of the page and how often unexpected layout shifts occur.
+  - This measures the visual stability of the page and how often unexpected layout shifts occur.
 
 ### Accessibility (95)
 
-This measures how accessible the content of your website is to users, especially those with disabilities. This involves evaluating aspects such as color contrast, ARIA roles, and screen reader support.
+This score evaluates how accessible your website content is, especially for users with disabilities. It involves aspects like color contrast, ARIA roles, and screen reader support.
 
 ### Best Practices (78)
 
-This section evaluates adherence to best practices in web development. A score of 78 indicates there are some areas that could be improved to ensure the website follows modern development best practices.
+This score reflects adherence to modern web development best practices, such as avoiding deprecated APIs, using HTTPS, ensuring secure resource loading, and reducing JavaScript execution time.
 
 ### SEO (100)
 
-A perfect score of 100 indicates excellent adherence to SEO best practices, ensuring the website is optimized for search engines. This includes:
-
-- Proper use of meta tags
-- Descriptive link text
-- Ensuring pages are crawlable
+A perfect SEO score indicates excellent adherence to search engine optimization best practices, including the proper use of meta tags, descriptive link text, and ensuring pages are crawlable.
 
 ## What are Web Vitals?
 
@@ -74,14 +72,11 @@ Web Vitals is a set of metrics introduced by Google to help quantify the user ex
 2. **Interactivity** (First Input Delay - FID)
 3. **Visual Stability** (Cumulative Layout Shift - CLS)
 
-These metrics are essential for understanding and improving the user experience on your site.
-
 ### How to Measure Web Vitals
 
-Just enter the website link in google pagespeed insights and you will get the web vitals score.
-Example report of codeparrot.ai
+To measure Web Vitals, simply enter your website URL into Google PageSpeed Insights, and you’ll get a detailed report. Here’s an example report for codeparrot.ai:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1717083312916/lE74Nb4fb.png?auto=format)
+![Web Vitals report](https://cdn.hashnode.com/res/hashnode/image/upload/v1717083312916/lE74Nb4fb.png?auto=format)
 
 ### Analyzing PageSpeed Insights Report
 
@@ -115,66 +110,66 @@ Example report of codeparrot.ai
 
 ### Results Comparison
 
-In the Lighthouse report, the performance score was 91, whereas the PageSpeed Insights report showed a performance score of 59. The discrepancy is primarily due to differences in the environments and specific metrics each tool prioritizes.
+In the Lighthouse report, the performance score was 91, whereas the PageSpeed Insights report showed a performance score of 59. Why the big difference? It comes down to the environments and specific metrics each tool prioritizes.
 
 ### Reasons for Lower Score in Web Vitals
 
-The lower score in Web Vitals can be attributed to higher Total Blocking Time (TBT) in the PageSpeed Insights report. This indicates that while the initial loading times (FCP and LCP) are good, the page has issues with interactivity and responsiveness, likely due to heavy JavaScript execution or blocking resources.
+The lower score in Web Vitals can be attributed to higher Total Blocking Time (TBT) in the PageSpeed Insights report. This suggests that while the initial loading times (FCP and LCP) are good, the page struggles with interactivity and responsiveness—possibly due to heavy JavaScript execution or blocking resources.
 
 ### Scope and Purpose
 
 **Lighthouse:**
 
-- **Comprehensive Audits:** Lighthouse provides a broad set of metrics and audits across multiple categories, including Performance, Accessibility, Best Practices, SEO, and Progressive Web App (PWA).
-- **Tool for Developers:** It is designed as a developer's tool to offer detailed insights into various aspects of a website, not just performance.
+- **Comprehensive Audits:** It covers performance, accessibility, best practices, SEO, and Progressive Web App (PWA) features.
+- **Developer Tool:** Designed to provide detailed insights into various aspects of a website, beyond just performance.
 
 **Web Vitals:**
 
-- **Focused Metrics:** Web Vitals focuses specifically on key user experience metrics. These metrics are chosen because they have a strong correlation with the overall user experience.
-- **User-Centric:** The primary goal of Web Vitals is to quantify and improve the user experience in terms of loading speed, interactivity, and visual stability.
+- **Focused Metrics:** Specifically targets key user experience metrics that have a strong correlation with the overall user experience.
+- **User-Centric:** Aims to quantify and improve the user experience by focusing on loading speed, interactivity, and visual stability.
 
 ### Key Metrics
 
 **Lighthouse Metrics:**
 
-- **Performance Metrics:** First Contentful Paint (FCP), Largest Contentful Paint (LCP), Speed Index, Total Blocking Time (TBT), Cumulative Layout Shift (CLS).
-- **Accessibility Metrics:** Checks for color contrast, ARIA roles, screen reader support, and other accessibility features.
-- **Best Practices:** Assesses the use of deprecated APIs, secure resource loading, optimized JavaScript, and adherence to modern web development standards.
-- **SEO:** Evaluates meta tags, descriptive link text, crawlability, and other SEO best practices.
-- **PWA:** Checks for Progressive Web App features such as offline support, service workers, and manifest files.
+- Performance Metrics: FCP, LCP, Speed Index, TBT, CLS.
+- Accessibility Metrics: Checks for color contrast, ARIA roles, screen reader support.
+- Best Practices: Assesses deprecated APIs, secure resource loading, optimized JavaScript.
+- SEO: Evaluates meta tags, descriptive link text, crawlability.
+- PWA: Checks for features like offline support, service workers, manifest files.
 
 **Web Vitals Metrics:**
 
-- **Largest Contentful Paint (LCP):** Measures loading performance, focusing on the time it takes for the largest content element to appear in the viewport.
-- **First Input Delay (FID):** Measures interactivity, specifically the delay between a user's first interaction with the page and the time when the browser responds to that interaction.
-- **Cumulative Layout Shift (CLS):** Measures visual stability by quantifying how much the layout shifts unexpectedly during the page's lifecycle.
+- Largest Contentful Paint (LCP): Measures loading performance.
+- First Input Delay (FID): Measures interactivity.
+- Cumulative Layout Shift (CLS): Measures visual stability.
 
 ### Usage Scenarios
 
 **Lighthouse:**
 
-- **Development and Testing:** Ideal for developers who need a comprehensive audit of their website's performance and quality. It provides actionable insights into various aspects of web development.
-- **Continuous Integration:** Can be integrated into CI/CD pipelines to ensure that code changes do not degrade the website's performance or quality.
-- **Broader Analysis:** Useful for performing a wide range of checks beyond just performance, such as accessibility and SEO.
+- **Development and Testing:** Ideal for developers needing comprehensive audits of their website’s performance and quality.
+- **Continuous Integration:** Can be integrated into CI/CD pipelines to ensure code changes don’t degrade the website’s performance or quality.
+- **Broader Analysis:** Useful for a wide range of checks beyond performance, such as accessibility and SEO.
 
 **Web Vitals:**
 
-- **User Experience Optimization:** Best suited for monitoring and optimizing the core aspects of user experience—loading speed, interactivity, and visual stability.
-- **Real-World Data:** Often used in conjunction with field data from tools like Google’s Chrome User Experience Report (CrUX) and real user monitoring (RUM) tools to understand how real users experience the website.
-- **Simplified Metrics:** Provides a clear and focused set of metrics that are easy to understand and prioritize for user experience improvements.
+- **User Experience Optimization:** Best for monitoring and optimizing core user experience aspects—loading speed, interactivity, and visual stability.
+- **Real-World Data:** Often used with field data from tools like Google’s Chrome User Experience Report (CrUX) and real user monitoring (RUM) tools.
+- **Simplified Metrics:** Provides clear, focused metrics that are easy to understand and prioritize.
 
 ### Data Collection
 
 **Lighthouse:**
 
-- **Lab Data:** Lighthouse provides lab data, which means it simulates page loads in a controlled environment and provides consistent, repeatable metrics. This is useful for debugging and testing changes before they go live.
-- **Controlled Conditions:** Since it's run in a controlled environment, the results might differ from real-world user experiences, especially if there are significant differences in network conditions and device capabilities.
+- **Lab Data:** Simulates page loads in a controlled environment, providing consistent, repeatable metrics. Useful for debugging and pre-live testing.
+- **Controlled Conditions:** Results may differ from real-world user experiences, especially if there are significant differences in network conditions and device capabilities.
 
 **Web Vitals:**
 
-- **Field Data:** Web Vitals often rely on field data, capturing metrics from real user interactions. This provides a more accurate picture of how actual users experience the site.
-- **Variability:** Since field data reflects real-world conditions, there can be variability in the results based on different user devices, network speeds, and other factors.
+- **Field Data:** Relies on metrics captured from real user interactions, providing an accurate picture of how users experience the site.
+- **Variability:** Reflects real-world conditions, which can vary based on user devices, network speeds, and other factors.
 
 ## Conclusion
 
-While both Lighthouse and Web Vitals are essential tools for web performance optimization, they serve different purposes and provide different types of insights. Lighthouse offers a comprehensive audit tool that covers multiple aspects of web development, whereas Web Vitals focuses specifically on the core metrics that matter most to user experience. By using both tools, you can ensure their websites are both high-performing and user-friendly, meeting the needs of both search engines and end-users.
+Both Lighthouse and Web Vitals are essential for web performance optimization, but they serve different purposes. Lighthouse offers a comprehensive audit tool covering multiple aspects of web development, while Web Vitals focuses on the core metrics that matter most to user experience. By leveraging both tools, you can ensure your website is both high-performing and user-friendly, meeting the needs of search engines and end-users alike.
