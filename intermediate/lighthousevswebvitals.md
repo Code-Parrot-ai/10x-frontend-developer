@@ -20,8 +20,6 @@ Google Lighthouse is an open-source, automated tool for improving the quality of
 
 ### How to Run Lighthouse
 
-Running a Lighthouse audit is straightforward:
-
 1. Open Chrome DevTools (F12 or right-click on the page and select "Inspect").
 2. Click on the “Lighthouse” tab.
 3. Select the categories you want to audit (Performance, Accessibility, Best Practices, SEO, PWA).
@@ -32,8 +30,6 @@ Here’s an example of a Lighthouse report for codeparrot.ai:
 ![Lighthouse report](https://cdn.hashnode.com/res/hashnode/image/upload/v1716967587209/I4tSa4WhE.png?auto=format)
 
 ## Overview of a Lighthouse Report
-
-Lighthouse generates scores across multiple categories. Here’s a snapshot of what you might see:
 
 - **Performance:** 91
 - **Accessibility:** 95
@@ -112,7 +108,7 @@ To measure Web Vitals, simply enter your website URL into Google PageSpeed Insig
 
 In the Lighthouse report, the performance score was 91, whereas the PageSpeed Insights report showed a performance score of 59. Why the big difference? It comes down to the environments and specific metrics each tool prioritizes.
 
-### Reasons for Lower Score in Web Vitals
+### Why Lower Score in Web Vitals?
 
 The lower score in Web Vitals can be attributed to higher Total Blocking Time (TBT) in the PageSpeed Insights report. This suggests that while the initial loading times (FCP and LCP) are good, the page struggles with interactivity and responsiveness—possibly due to heavy JavaScript execution or blocking resources.
 
