@@ -5,7 +5,7 @@ subtitle: "Learn about the various console methods available in JavaScript for d
 
 slug: "debugging-beyond-console-log-in-javascript"
 
-tags: JavaScript, Debugging, Console
+tags: javaScript, debugging, console
 
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717605044541/VMFH8jM1R.webp?auto=format
 
