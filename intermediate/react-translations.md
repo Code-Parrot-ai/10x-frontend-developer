@@ -3,7 +3,7 @@ title: How to Easily Add Translations to Your React Apps with i18next
 subtitle: Learn how to add translations to your React apps using i18next and enjoy a seamless multilingual experience.
 slug: adding-translations-to-react-apps
 tags: react, i18next, localization, internationalization, translations, web-development, javascript
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718449333073/XtY-9StAD.webp?auto=format
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718449666123/RHOwbA84I.webp?auto=format
 domain: 10xdev.codeparrot.ai
 saveAsDraft: false
 ---
